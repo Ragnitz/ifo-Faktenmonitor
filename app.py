@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 # KORREKTUR: Wir suchen genau nach Ihrem originalen Hochlade-Namen!
-EXCEL_DATEINAME = "ifo Faktenmonitor_2026.xlsx"
+EXCEL_DATEINAME = "ifo_Faktenmonitor_2026.xlsx"
 
 @st.cache_data
 def load_data(filename):
