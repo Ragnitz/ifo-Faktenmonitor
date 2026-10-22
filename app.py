@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
-import requests
-import io  # WICHTIG: Holt das fehlende Speichermodul ins Boot!
+import os
 
 st.set_page_config(
     page_title="ifo Faktenmonitor Ostdeutschland - Interaktives Datenportal",
@@ -9,23 +8,20 @@ st.set_page_config(
     layout="wide"
 )
 
-# HINWEIS: Hier die beiden echten OneDrive-Direktlinks eintragen (mit download=1)
-ONEDRIVE_EXCEL_URL = "https://live.com"
-ONEDRIVE_IMAGES_BASE_URL = "https://live.com"
+# DEFINITION: Der Name der Excel-Datei, die Sie gleich bei GitHub hochladen
+EXCEL_DATEINAME = "ifo_Faktenmonitor.xlsx"
 
 @st.cache_data
-def load_data(url):
+def load_data(filename):
     try:
-        response = requests.get(url)
-        response.raise_for_status()
-        # KORREKTUR: io.BytesIO() verpackt die OneDrive-Daten so, dass Pandas sie fehlerfrei lesen kann
-        return pd.ExcelFile(io.BytesIO(response.content), engine="openpyxl")
+        # Liest die Datei direkt aus dem lokalen GitHub-Verzeichnis
+        return pd.ExcelFile(filename, engine="openpyxl")
     except Exception as e:
-        st.error(f"Fehler beim Laden vom OneDrive: {e}")
+        st.error(f"Fehler beim Laden der lokalen Excel-Datei: {e}")
         return None
 
-with st.spinner("Lade 250 Indikatoren live aus dem ifo OneDrive..."):
-    excel_object = load_data(ONEDRIVE_EXCEL_URL)
+with st.spinner("Lade 250 Indikatoren direkt aus dem Portal-Speicher..."):
+    excel_object = load_data(EXCEL_DATEINAME)
 
 if excel_object:
     all_sheets = excel_object.sheet_names
@@ -74,13 +70,16 @@ if excel_object:
     col1, col2 = st.columns(2)
     for i in range(current_charts_count):
         aktuelles_bild = start_bild_nummer + i
-        bild_url = f"{ONEDRIVE_IMAGES_BASE_URL}/image{aktuelles_bild:03d}.png"
+        dateiname = f"images/image{aktuelles_bild:03d}.png"
         
         target_col = col1 if i % 2 == 0 else col2
         with target_col:
-            st.image(bild_url, caption=f"Diagramm {i+1} aus dem Bereich {selected_kapitel}", use_container_width=True)
+            try:
+                st.image(dateiname, caption=f"Diagramm {i+1} aus dem Bereich {selected_kapitel}", use_container_width=True)
+            except:
+                pass
                 
     st.markdown("---")
     st.caption("**Datenquelle:** ifo Institut Dresden / Mitteldeutsche Stiftung Wissenschaft und Bildung (c/o VNG AG).")
 else:
-    st.info("Warte auf korrekten OneDrive-Link.")
+    st.info(f"Bitte stellen Sie sicher, dass die Datei '{EXCEL_DATEINAME}' auf GitHub hochgeladen wurde.")
