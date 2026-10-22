@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 # DEFINITION: Der Name der Excel-Datei, die Sie gleich bei GitHub hochladen
-EXCEL_DATEINAME = "ifo Faktenmonitor_2026.xlsx"
+EXCEL_DATEINAME = "ifo_Faktenmonitor_2026.xlsx"
 
 @st.cache_data
 def load_data(filename):
