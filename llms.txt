@@ -4,6 +4,8 @@
 
 Stand: 27.9.2026. Alle Daten maschinenlesbar: https://ragnitz.github.io/ifo-Faktenmonitor/faktenmonitor_daten.csv
 
+Lizenz: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quellenangabe: ifo Faktenmonitor Ostdeutschland, ifo Institut / Mitteldeutsche Stiftung Wissenschaft und Bildung
+
 ## Wirtschaftskraft
 
 - [BIP, Anteil an Deutschland](https://ragnitz.github.io/ifo-Faktenmonitor/wirtschaftskraft/bip-anteil-an-deutschland.html): AK VGR der Länder, 2019-2025

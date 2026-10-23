@@ -15,6 +15,12 @@ Wirtschaftskraft und Wirtschaftswachstum, Wirtschaftsstruktur und sektoraler Str
 - [Alle Daten als CSV](https://ragnitz.github.io/ifo-Faktenmonitor/faktenmonitor_daten.csv) (maschinenlesbar, ein Wert je Zeile)
 - [Vollständige Excel-Arbeitsmappe mit allen Abbildungen](https://github.com/Ragnitz/ifo-Faktenmonitor/raw/main/ifo_Faktenmonitor_2026.xlsx)
 
+## Lizenz
+
+Die Daten und Abbildungen stehen unter der Lizenz [Creative Commons Namensnennung 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.de). Sie dürfen frei verwendet, weitergegeben und bearbeitet werden, sofern die Quelle genannt wird:
+
+**ifo Faktenmonitor Ostdeutschland, ifo Institut / Mitteldeutsche Stiftung Wissenschaft und Bildung**
+
 ## Weitere Informationen
 
 Der Faktenmonitor wird regelmäßig aktualisiert. Die Originalveröffentlichung findet sich bei der [Mitteldeutschen Stiftung Wissenschaft und Bildung](https://mitteldeutsche-stiftung.de/ifo-faktenmonitor-ostdeutschland/).
