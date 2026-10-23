@@ -83,3 +83,4 @@ footer.site a { color: var(--muted); }
 .chart .kavg { fill: none; stroke: #ff0000; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
 .chart .kdot { fill: var(--west); }
 .k-dot { border-radius: 50%; } .k-avg { height: 0; border: 0; border-top: 2px solid #ff0000; width: 16px; vertical-align: 3px; }
+.legend .li { white-space: nowrap; margin-right: 6px; } .legend .li .k { margin-left: 0; }

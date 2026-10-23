@@ -343,7 +343,7 @@ Lizenz: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quellenangabe:
 
 ## Sonstiges
 
-- [Stiftungen (Anzahl/je 1.000 Einwohner)](https://ragnitz.github.io/ifo-Faktenmonitor/sonstiges/stiftungen-anzahl-je-1-000-einwohner.html): Bundesverband deutscher Stiftungen, 2025
+- [Stiftungen (Anzahl/je 1 Mio. Einwohner)](https://ragnitz.github.io/ifo-Faktenmonitor/sonstiges/stiftungen-anzahl-je-1-mio-einwohner.html): Bundesverband deutscher Stiftungen, 2025
 - [Zusammensetzung Landtage](https://ragnitz.github.io/ifo-Faktenmonitor/sonstiges/zusammensetzung-landtage.html): Landtage der Länder, 2026
 - [Zweitstimmenergebnisse Bundestagswahl 2025](https://ragnitz.github.io/ifo-Faktenmonitor/sonstiges/zweitstimmenergebnisse-bundestagswahl-2025.html): Bundeswahlleiterin (Statistisches Bundesamt), 2025
 - [Zufriedenheitsindikatoren](https://ragnitz.github.io/ifo-Faktenmonitor/sonstiges/zufriedenheitsindikatoren.html): BMWE, 2023
