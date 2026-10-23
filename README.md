@@ -1,2 +1,22 @@
-# copilot-workspace
-Repository created via GitHub Copilot
+# ifo Faktenmonitor Ostdeutschland
+
+**Website: [https://ragnitz.github.io/ifo-Faktenmonitor/](https://ragnitz.github.io/ifo-Faktenmonitor/)**
+
+Der ifo Faktenmonitor stellt rund 300 wirtschaftsbezogene Indikatoren für alle 16 Bundesländer bereit und vergleicht Ost- und Westdeutschland, meist für die Jahre ab 2019. Für ausgewählte Indikatoren gibt es Zeitreihen ab dem Jahr 2000 sowie Vergleichsdaten für europäische Regionen (NUTS-1) und die Mitgliedstaaten der EU. Der Faktenmonitor wurde vom ifo Institut, Niederlassung Dresden, auf Anregung des Saarower Kreises erstellt und im Mai 2025 erstmals vorgestellt.
+
+## Inhalt
+
+Die Website enthält für jeden Indikator eine eigene Seite mit Kernaussagen, Abbildung, vollständiger Datentabelle, Quellenangabe und Datenstand. Die Themen umfassen unter anderem:
+
+Wirtschaftskraft und Wirtschaftswachstum, Wirtschaftsstruktur und sektoraler Strukturwandel, Investitionen und Kapitalstock, Arbeitsangebot, Arbeitsnachfrage und Arbeitslosigkeit, Löhne, Lohnstückkosten, Einkommen, Einkommensverteilung und Vermögen, Selbständige, Industrie, Unternehmen und Außenhandel, Forschung, Innovation, Hochschulen und Bildung, Bevölkerung und Bevölkerungsprognose, öffentliche Haushalte, Energie und Umwelt, regionale Unterschiede innerhalb der Länder (Binnendifferenzierung) sowie EU-Vergleiche.
+
+## Daten herunterladen
+
+- [Alle Daten als CSV](https://ragnitz.github.io/ifo-Faktenmonitor/faktenmonitor_daten.csv) (maschinenlesbar, ein Wert je Zeile)
+- [Vollständige Excel-Arbeitsmappe mit allen Abbildungen](https://github.com/Ragnitz/ifo-Faktenmonitor/raw/main/ifo_Faktenmonitor_2026.xlsx)
+
+## Weitere Informationen
+
+Der Faktenmonitor wird regelmäßig aktualisiert. Die Originalveröffentlichung findet sich bei der [Mitteldeutschen Stiftung Wissenschaft und Bildung](https://mitteldeutsche-stiftung.de/ifo-faktenmonitor-ostdeutschland/).
+
+Ansprechpartner: Prof. Dr. Joachim Ragnitz, ifo Institut, Niederlassung Dresden (ragnitz@ifo.de)
